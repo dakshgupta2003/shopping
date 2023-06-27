@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <section id="header">
+        <a href="#"><img src="img/logo.png" alt="ERROR 404" class="logo"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li id="bag"><a href="cart.html"><i class="fas fa-bag-shopping"></i></a></li>
+                <!-- this id =bag is used in responsive programming -->
+                <a href="#" id="close"><i class="fas fa-times"></i></a>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <!-- this div is to create the hamburger menu -->
+            <a href="cart.html"><i class="fas fa-bag-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h2>#let's_talk</h2>
+        <p>LEAVE A MESSAGE, we'd love to hear from you</p>
+    </section>
+    
+    <section id="contact-details" class="section-p1">
+        <div class="details">
+            <span>GET IN TOUCH</span>
+            <h2>Visit one of our agency locations or contact us today</h2>
+            <h3>Head Office</h3>
+            <div>
+                <li>
+                    <i class="fas fa-map"></i>
+                    <p>56 Glassford Street Glassgow G1 1UL New York City</p>
+                </li>
+
+                <li>
+                    <i class="fas fa-envelope"></i>
+                    <p>Email us at clothing-revolution@gmail.com</p>
+                </li>
+
+                <li>
+                    <i class="fas fa-phone-alt"></i>
+                    <p>Reach to our toll free customer support: +91 5559960321</p>
+                </li>
+
+                <li>
+                    <i class="fas fa-clock"></i>
+                    <p>Monday - Saturday 9:00 A.M. to 17:00 P.M.</p>
+                </li>
+            </div>
+        </div>
+
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2933.691988312533!2d-83.21042338460714!3d42.667882123598844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824ea924a895f3f%3A0xe994efb06dc14099!2sOakland%20University!5e0!3m2!1sen!2sin!4v1677153357135!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section id="form-details" class="section-p1">
+        <form action="">
+            <span>LEAVE A MESSAGE</span>
+            <h2>We'd love to hear from you</h2>
+            <input type="text" placeholder="YOUR NAME">
+            <input type="text" placeholder="E-MAIL">
+            <input type="text" placeholder="SUBJECT">
+            <textarea name="" id="" cols="30" rows="10" placeholder="YOUR MESSAGE"></textarea>
+            <button class="normal">Submit</button>
+        </form>
+
+        <div class="people">
+            <div>
+                <img src="img/people/1.png" alt="">
+                <p><span>John Doe</span> <br> Senior Marketing Manager <br> Phone: +91 8856482363 <br> E-Mail: akdubey@gmail.com</p>
+            </div>
+
+            <div>
+                <img src="img/people/2.png" alt="">
+                <p><span>Carl Marks</span> <br> Senior Marketing Manager <br> Phone: +91 8856482363 <br> E-Mail: akdubey@gmail.com</p>
+            </div>
+
+            <div>
+                <img src="img/people/3.png" alt="">
+                <p><span>Ashley Anniston</span> <br> Senior Marketing Manager <br> Phone: +91 8856482363 <br> E-Mail: akdubey@gmail.com</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletter</h4>
+            <p>Get <span>e-mail updates</span> about our latest shop and <span>Special Offers</span></p>
+        </div>
+
+        <div class="form">
+            <input type="text" placeholder="Your E-MAil Address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> 4/417 Sector-4 Vaishali Ghaziabad U.P India</p>
+            <p><strong>Phone: </strong>(+91)7827662636/(+91)5559960321</p>
+            <p><strong>Hours: </strong>11:00 - 19:00. Mon-Fri</p>
+
+            <div class="follow">
+                <h4>follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="">About Us</a>
+            <a href="">Delivery Information</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms & Conditions</a>
+            <a href="">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="">Sign In</a>
+            <a href="">View Cart</a>
+            <a href="">My Wishlist</a>
+            <a href="">Track My Order</a>
+            <a href="">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpeg" alt="">
+                <img src="img/pay/play.jpeg" alt="">
+            </div>
+
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            copyright &copy;WWW.Cora.com. All rights reserved!
+        </div>
+    </footer>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
